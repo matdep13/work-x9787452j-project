@@ -3,18 +3,64 @@
 <head>
     <meta charset="UTF-8">
     <meta name="robots" content="noindex, nofollow">
-    <title>Друга сторінка</title>
+    <title>Про мене — Проєкт з інформатики</title>
     <style>
-        body { font-family: sans-serif; background-color: #f4f4f4; text-align: center; padding: 50px; }
-        .info-block { background: white; border: 2px solid #3498db; padding: 20px; border-radius: 10px; display: inline-block; }
-        a { display: block; margin-top: 20px; color: #3498db; text-decoration: none; font-weight: bold; }
+        body { 
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+            background-color: #2c3e50; 
+            color: white; 
+            text-align: center; 
+            padding: 50px 20px; 
+            margin: 0;
+        }
+        .container { 
+            background: #34495e; 
+            padding: 30px; 
+            border-radius: 15px; 
+            display: inline-block; 
+            box-shadow: 0 10px 20px rgba(0,0,0,0.3); 
+            max-width: 600px;
+        }
+        h1 { color: #3498db; }
+        p { line-height: 1.6; color: #ecf0f1; }
+        
+        /* Стили для картинки */
+        .cool-img { 
+            max-width: 100%; 
+            height: auto; 
+            border-radius: 10px; 
+            margin: 20px 0;
+            border: 3px solid #3498db;
+        }
+
+        .link-btn { 
+            display: inline-block; 
+            margin-top: 20px; 
+            color: #3498db; 
+            text-decoration: none; 
+            font-weight: bold; 
+            border: 1px solid #3498db; 
+            padding: 10px 20px; 
+            border-radius: 5px; 
+            transition: 0.3s;
+        }
+        .link-btn:hover { 
+            background: #3498db; 
+            color: white; 
+        }
     </style>
 </head>
 <body>
-    <div class="info-block">
-        <h1>тут нічого цікавого</h1>
-        <p>взагалі нічого немає.</p>
-        <a href="index.html">⬅ Назад на головну</a>
+    <div class="container">
+        <h1>Друга сторінка сайту</h1>
+        <p>Тут я вирішив додати трохи контенту "заради приколу". Як бачите, картинка успішно завантажена!</p>
+        
+        <!-- Замени prikyol.jpg на реальное название своего файла с расширением! -->
+        <img src="prikyol.jpg" alt="Моє круте зображення" class="cool-img">
+
+        <p>Це демонстрація того, як можна структурувати інформацію на сайті.</p>
+        
+        <a href="index.html" class="link-btn">⬅ Повернутися на головну</a>
     </div>
 </body>
 </html>
